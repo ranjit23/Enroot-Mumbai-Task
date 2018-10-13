@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+
+}
+section{
+  background-color: white;
+}
+.section1 {
+  background-color: #f2f2f2;
+}
+.section2{
+  background-color: inherit;
+}
+ul {
+      position: static;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, #99ccff 0%, #0066ff 100%);
+}
+nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:  #ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #99ccff;
+}
+.align-nav{
+  float: right;
+}
+.center {
+  display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    width: 50%;
+    height: 270px;
+
+    width: auto;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 40%;
+    height: 360px;
+    width: 270px;
+    background-color: white;
+}
+.logo {
+  height: 55px;
+  width: 60px;  ;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+}
+
+.container {
+    padding: 2px 16px;
+}
+.building {
+  height:250px;
+}
+.caption{
+  font-family: 'Slabo 27px', serif;
+}
+h1 {
+color: #0052cc;
+text-align:center;
+}
+footer{
+  background-color: black;
+  color: white;
+  margin-bottom: : 0;
+  height: 50px;
+  text-align: center;
+
+}
+/* Button used to ppen the contact form - fixed at the bottom of the page */
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 480px;
+  margin-bottom: 100px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: #999999;
+
+
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #999999;
+  opacity: 0.9;
+}
+
+/* Full-width input fields */
+.form-container input[type=email], .form-container input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=email]:focus, .form-container input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
